@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Output of Next.js build
+.next/
+out/
+
+# Testing related
+coverage/
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# .next/cache is optional, but it's typically ignored as well
+.next/cache
+
+# Next.js static cache
+/public/static/cache
+
+# Vercel deployment
+.vercel
+
+# Local IDE/Editor config files (Optional)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS and Linux system files
+.DS_Store
+Thumbs.db
+
+# TypeScript build outputs
+*.tsbuildinfo
+
+# ESLint and Prettier
+.eslintcache
+.prettiercache
